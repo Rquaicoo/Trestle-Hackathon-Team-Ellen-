@@ -4,9 +4,10 @@ import face_recognition
 import numpy as np
 import cv2
 
-
+#import datetime to get the time of attendance
 from datetime import datetime
-folder = (r'C:\Users\user\Desktop\RussellProject\Images')
+folder = (r'C:\Users\user\Desktop\RussellProject\Images') #create a folder containing images of the people whose attendance you want to take
+
 images = []
 classNames = []
 myList = os.listdir(folder)
